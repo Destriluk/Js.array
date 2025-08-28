@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function arrayasc(arr){
+         return arr.slice().sort((a,b) => a - b)
+        } 
+        function arraydsc(arr){
+         return arr.slice().sort((a,b) => b - a)
+        } 
+        let list=[5,7,8,13,14,16,70,2,1,20,93,999,0,12,]
+        console.log("ascending",arrayasc(list))
+        console.log("descending",arraydsc(list))
+    </script>
+</body>
+</html> 
